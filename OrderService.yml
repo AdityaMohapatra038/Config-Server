@@ -36,4 +36,5 @@ resilience4j:
 microservice:
  payment-service:
    endpoints:
-     endpoint: http://PAYMENT-SERVICE/payment/doPayment
+     endpoint: 
+      uri: http://PAYMENT-SERVICE/payment/doPayment
